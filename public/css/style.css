@@ -1,0 +1,23 @@
+/*Version 1*/
+body {
+    font-family: 'Roboto';
+    background-color: #EAC926;
+}
+p{
+    font-size: 12px
+}
+ul{
+    vertical-align:auto;
+    width: 150px;
+    height: 90px;
+    background-color: #1259c3;
+    opacity: 0.87;
+    text-align: center;
+    margin-bottom: 50px;
+}
+main{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
