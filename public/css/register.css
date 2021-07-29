@@ -74,7 +74,7 @@ footer{
 }
 .parteFooter{
     text-align: center;
-    padding-top: 1%;
+    padding-top: 25px;
     max-width: 450px;
     margin: auto;
 }
@@ -114,9 +114,31 @@ form div{
     margin: auto;
     background-color: #ebebeb;
     max-width: 600px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.botones button{
+    font-weight: bold;
+    background-color: #03264C;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    border-style: none;
+    transition: all 0.4s ease;
+}
+.botones button:hover{
+    background-color: #1259c3;
 }
 
+input{
+    border-radius: 5px;
+    border: 1px solid #222222
+}
+#fotoUsuario{
+    border:0px solid
+}
 @media (min-width: 361px) {
     .headerLinks li{
         font-size: 12px;
@@ -173,6 +195,7 @@ form div{
         display: flex;
     }
     .footerFinal i:hover{
-        color: #03264C;
+        transition: all 0.4s ease;
+        color: #39b54a;
     }
 }

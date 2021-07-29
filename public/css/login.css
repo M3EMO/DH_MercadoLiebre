@@ -122,14 +122,36 @@ form input{
     margin: auto;
     background-color: #ebebeb;
     max-width: 600px;
-    padding: 125px 100px 100px 100px;
+    padding: 80px 100px 100px 100px;
 }
 
 .botonEnviar{
     margin-top: 20px;
     padding-top: 45px;
 }
+.subtitle h2{
+    padding-bottom: 80px;
+}
 
+.botonEnviar button{
+    font-weight: bold;
+    background-color: #03264C;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    border-style: none;
+    transition: all 0.4s ease;
+}
+.botonEnviar button:hover{
+    background-color: #1259c3;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #222222
+}
 @media (min-width: 361px) {
     .headerLinks li{
         font-size: 12px;
@@ -178,7 +200,8 @@ form input{
         display: flex;
     }
     .footerFinal i:hover{
-        color: #03264C;
+        color: #39b54a;
+        transition: all 0.4s ease;
     }
     nav li{
         margin: 0 8px;
@@ -187,9 +210,5 @@ form input{
     .headerLinks li{
         font-size: 16px;
         
-    }
-    .botonEnviar button:hover{
-        background-color: #0022AA;
-        color: #ffffff
     }
 }

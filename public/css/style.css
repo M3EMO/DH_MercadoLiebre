@@ -274,7 +274,8 @@ img{
         display: flex;
     }
     .footerFinal i:hover{
-        color: #03264C;
+        color: #39b54a;
+        transition: all 0.4s ease;
     }
 }
 
