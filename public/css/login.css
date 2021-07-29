@@ -99,7 +99,10 @@ nav{
     color: #222222;
 }
 
-
+.footerFinal{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .copyright{
     color: #666;
     font-size: 16px;
@@ -119,7 +122,7 @@ form input{
     margin: auto;
     background-color: #ebebeb;
     max-width: 600px;
-    padding: 85px 100px 10px 100px;
+    padding: 125px 100px 100px 100px;
 }
 
 .botonEnviar{
@@ -170,6 +173,12 @@ form input{
 
     .logo{
         margin-right: 70px;
+    }
+    .footerFinal{
+        display: flex;
+    }
+    .footerFinal i:hover{
+        color: #03264C;
     }
     nav li{
         margin: 0 8px;

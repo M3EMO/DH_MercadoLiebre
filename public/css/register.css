@@ -169,5 +169,10 @@ form div{
         font-size: 16px;
         
     }
-
+    .footerFinal{
+        display: flex;
+    }
+    .footerFinal i:hover{
+        color: #03264C;
+    }
 }
