@@ -152,6 +152,8 @@ input{
     border-radius: 5px;
     border: 1px solid #222222
 }
+
+
 @media (min-width: 361px) {
     .headerLinks li{
         font-size: 12px;

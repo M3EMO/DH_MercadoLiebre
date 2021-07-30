@@ -264,11 +264,12 @@ img{
         margin-bottom: 10px;
         margin-top: 1%
     }
-    .description h3{
-        color: white;
+    .item .tituloItem{
+        opacity: 0;
     }
-    .item h3:hover{
-        color: black;
+    .item .tituloItem:hover{
+        opacity: 1;
+        transition: all 0.6s ease;;
     }
     .footerFinal{
         display: flex;
